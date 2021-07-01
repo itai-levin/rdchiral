@@ -5,7 +5,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem.rdchem import ChiralType
 
-VERBOSE = True
+VERBOSE = False
 USE_STEREOCHEMISTRY = True
 MAXIMUM_NUMBER_UNMAPPED_PRODUCT_ATOMS = 5
 INCLUDE_ALL_UNMAPPED_REACTANT_ATOMS = True
